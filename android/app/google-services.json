@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1053600478941",
+    "project_id": "giottustest-663c2",
+    "storage_bucket": "giottustest-663c2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053600478941:android:25236fe6bf6bffdb9f0d34",
+        "android_client_info": {
+          "package_name": "com.giottus.testapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT5mTMpH4ArrXyHDJHg3rvUG4MPWNTEfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
