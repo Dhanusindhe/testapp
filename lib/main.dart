@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
+import 'package:moengage_flutter/moengage_flutter.dart';
 import 'package:testapp/firebase_options.dart';
 
 void main() async {
@@ -46,8 +47,25 @@ class MyHomePage extends StatefulWidget {
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
   int _counter = 0;
+  final MoEngageFlutter _moengagePlugin =
+      MoEngageFlutter("H0LK4MS1ETIM4ODCRME7R6HE");
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    WidgetsBinding.instance.addObserver(this);
+    debugPrint('$tag initState() : start ');
+    _moengagePlugin.configureLogs(LogLevel.VERBOSE);
+    _moengagePlugin.initialise();
+    _moengagePlugin.setUniqueId("123");
+    // _moengagePlugin.registerForPushNotification();
+    // _moengagePlugin.showInApp();
+    debugPrint('$tag initState() : end ');
+  }
+
   void _incrementCounter() async {
     String? token = await FirebaseMessaging.instance.getToken();
     print("fcm $token");
