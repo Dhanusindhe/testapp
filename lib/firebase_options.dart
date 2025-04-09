@@ -50,19 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDT5mTMpH4ArrXyHDJHg3rvUG4MPWNTEfY',
-    appId: '1:1053600478941:android:25236fe6bf6bffdb9f0d34',
-    messagingSenderId: '1053600478941',
-    projectId: 'giottustest-663c2',
-    storageBucket: 'giottustest-663c2.firebasestorage.app',
+    apiKey: 'AIzaSyCGgizYyJXAVpB_VUTp1Y0yZhJhpW6fk1A',
+    appId: '1:522172008148:android:8bbce6ad3b8d12abf5dd41',
+    messagingSenderId: '522172008148',
+    projectId: 'test-app-1508e',
+    storageBucket: 'test-app-1508e.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC6pqdqgveCPIeC0wWpsZ2F8A61WK0df-s',
-    appId: '1:1053600478941:ios:5aeac53f546bd3269f0d34',
-    messagingSenderId: '1053600478941',
-    projectId: 'giottustest-663c2',
-    storageBucket: 'giottustest-663c2.firebasestorage.app',
+    apiKey: 'AIzaSyDdi7JR47eyipZbCGE-zQzE1e_L8az637M',
+    appId: '1:522172008148:ios:68a2e581d3c7bf58f5dd41',
+    messagingSenderId: '522172008148',
+    projectId: 'test-app-1508e',
+    storageBucket: 'test-app-1508e.firebasestorage.app',
     iosBundleId: 'com.giottus.testapp',
   );
+
 }

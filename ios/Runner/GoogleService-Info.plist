@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyC6pqdqgveCPIeC0wWpsZ2F8A61WK0df-s</string>
+	<string>AIzaSyDdi7JR47eyipZbCGE-zQzE1e_L8az637M</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1053600478941</string>
+	<string>522172008148</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.giottus.testapp</string>
 	<key>PROJECT_ID</key>
-	<string>giottustest-663c2</string>
+	<string>test-app-1508e</string>
 	<key>STORAGE_BUCKET</key>
-	<string>giottustest-663c2.firebasestorage.app</string>
+	<string>test-app-1508e.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1053600478941:ios:5aeac53f546bd3269f0d34</string>
+	<string>1:522172008148:ios:68a2e581d3c7bf58f5dd41</string>
 </dict>
 </plist>
