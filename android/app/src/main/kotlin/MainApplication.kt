@@ -14,8 +14,10 @@ class MainApplication : Application() {
         val moEngage = MoEngage.Builder(this, "H0LK4MS1ETIM4ODCRME7R6HE", DataCenter.DATA_CENTER_3)
         .configureNotificationMetaData(
             NotificationConfig(
-                R. drawable.launch_background,
-                R. drawable.launch_background,
+               smallIcon = R.drawable.launch_background,
+                    largeIcon = R.drawable.launch_background,
+                    notificationColor = R.color.red,
+                    isMultipleNotificationInDrawerEnabled = true,
             )
         ).configureLogs(LogConfig(LogLevel.VERBOSE, true))
         .build()

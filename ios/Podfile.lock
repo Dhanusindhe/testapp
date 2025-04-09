@@ -75,6 +75,50 @@ PODS:
   - GoogleUtilities/UserDefaults (8.0.2):
     - GoogleUtilities/Logger
     - GoogleUtilities/Privacy
+  - MoEngage-iOS-SDK (9.23.1):
+    - MoEngage-iOS-SDK/Core (= 9.23.1)
+  - MoEngage-iOS-SDK/Core (9.23.1):
+    - MoEngageAnalytics (= 4.22.0)
+    - MoEngageCore (= 9.23.1)
+    - MoEngageMessaging (= 4.20.1)
+    - MoEngageObjCUtils (= 3.20.0)
+    - MoEngageSDK (= 9.20.0)
+    - MoEngageSecurity (= 1.12.0)
+  - MoEngage-iOS-SDK/InApps (9.23.1):
+    - MoEngage-iOS-SDK/Core
+    - MoEngageInApps (= 6.05.0)
+    - MoEngageTriggerEvaluator (= 1.04.0)
+  - moengage_flutter_ios (3.3.0):
+    - Flutter
+    - MoEngagePluginBase (= 5.3.0)
+  - MoEngageAnalytics (4.22.0):
+    - MoEngageCore
+    - MoEngageObjCUtils
+  - MoEngageCore (9.23.1):
+    - MoEngageSecurity
+  - MoEngageInApps (6.05.0):
+    - MoEngageAnalytics
+    - MoEngageCore
+    - MoEngageMessaging
+    - MoEngageObjCUtils
+    - MoEngageTriggerEvaluator
+  - MoEngageMessaging (4.20.1):
+    - MoEngageAnalytics
+    - MoEngageCore
+    - MoEngageObjCUtils
+  - MoEngageObjCUtils (3.20.0):
+    - MoEngageCore
+  - MoEngagePluginBase (5.3.0):
+    - MoEngage-iOS-SDK (= 9.23.1)
+    - MoEngage-iOS-SDK/InApps
+  - MoEngageSDK (9.20.0):
+    - MoEngageAnalytics
+    - MoEngageCore
+    - MoEngageMessaging
+    - MoEngageObjCUtils
+  - MoEngageSecurity (1.12.0)
+  - MoEngageTriggerEvaluator (1.04.0):
+    - MoEngageCore
   - nanopb (3.30910.0):
     - nanopb/decode (= 3.30910.0)
     - nanopb/encode (= 3.30910.0)
@@ -88,6 +132,7 @@ DEPENDENCIES:
   - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
   - Flutter (from `Flutter`)
   - GoogleUtilities
+  - moengage_flutter_ios (from `.symlinks/plugins/moengage_flutter_ios/ios`)
 
 SPEC REPOS:
   trunk:
@@ -98,6 +143,16 @@ SPEC REPOS:
     - FirebaseMessaging
     - GoogleDataTransport
     - GoogleUtilities
+    - MoEngage-iOS-SDK
+    - MoEngageAnalytics
+    - MoEngageCore
+    - MoEngageInApps
+    - MoEngageMessaging
+    - MoEngageObjCUtils
+    - MoEngagePluginBase
+    - MoEngageSDK
+    - MoEngageSecurity
+    - MoEngageTriggerEvaluator
     - nanopb
     - PromisesObjC
 
@@ -108,6 +163,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/firebase_messaging/ios"
   Flutter:
     :path: Flutter
+  moengage_flutter_ios:
+    :path: ".symlinks/plugins/moengage_flutter_ios/ios"
 
 SPEC CHECKSUMS:
   Firebase: 1fe1c0a7d9aaea32efe01fbea5f0ebd8d70e53a2
@@ -120,6 +177,17 @@ SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   GoogleDataTransport: aae35b7ea0c09004c3797d53c8c41f66f219d6a7
   GoogleUtilities: 26a3abef001b6533cf678d3eb38fd3f614b7872d
+  MoEngage-iOS-SDK: bcd7a1afe29daef8da9596642b2e3da016f3a186
+  moengage_flutter_ios: 317c06850bd595d1493be298e931ffb10ca088d6
+  MoEngageAnalytics: 5a2c109afacce81ee31281b0fcd69239c43783cc
+  MoEngageCore: 9f25712be6ce7ac8a9ecd46b37fd926f6854a615
+  MoEngageInApps: 81f16a96f0a6b62cb8278185d8fc7b8bff07b95a
+  MoEngageMessaging: fe97fe06818c85c9da77c2d15f918f6ee9dd91c8
+  MoEngageObjCUtils: bfac002fa75c8a062ab4d34ca4bde2f0d98aac5c
+  MoEngagePluginBase: 84b001724e1150307b4e1ba8ba6c50aefdca6846
+  MoEngageSDK: 0ba30fa01901cb5657460638029082df5c2aeaf4
+  MoEngageSecurity: 6c2f736b8ab8e2caf91c194993c9594cb30d7d17
+  MoEngageTriggerEvaluator: 4a6e546111a71642aa53bbb19a123af667aaeb2e
   nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
 

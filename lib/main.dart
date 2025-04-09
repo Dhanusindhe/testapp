@@ -62,13 +62,65 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
     _moengagePlugin.initialise();
     _moengagePlugin.setUniqueId("123");
     // _moengagePlugin.registerForPushNotification();
-    // _moengagePlugin.showInApp();
+    _moengagePlugin.showInApp();
+    _moengagePlugin.showNudge();
     debugPrint('$tag initState() : end ');
   }
 
   void _incrementCounter() async {
-    String? token = await FirebaseMessaging.instance.getToken();
-    print("fcm $token");
+    // String? token = await FirebaseMessaging.instance.getToken();
+    // print("fcm $token");
+    _moengagePlugin.setUserName("Dhanu");
+    _moengagePlugin.setFirstName("Dhanwanth");
+    _moengagePlugin.setLastName("Yashwanth");
+    _moengagePlugin.setEmail("test@gmail.com");
+    _moengagePlugin.setPhoneNumber("123456789");
+    _moengagePlugin.setUserAttribute("int-attr", 0);
+    _moengagePlugin.setUserAttribute("bool-attr", true);
+    _moengagePlugin.setUserAttribute("string-attr", "Some Value");
+    _moengagePlugin.setUserAttribute("double-attr", 10.0);
+    _moengagePlugin.setUserAttribute("int-arr-attr", [100, 200, 300]);
+    _moengagePlugin.setUserAttribute('product', {
+      'item-id': 123,
+      'item-type': 'books',
+      'item-cost': {'amount': 100, 'currency': 'USD'}
+    });
+    _moengagePlugin.setUserAttribute('products', [
+      {
+        'item-id': 123,
+        'item-cost': {'amount': 100, 'currency': 'USD'}
+      },
+      {
+        'item-id': 323,
+        'item-cost': {'amount': 90, 'currency': 'USD'}
+      }
+    ]);
+
+    var properties = MoEProperties();
+    properties
+        .addAttribute("attrString", "String Value")
+        .addAttribute("attrInt", 123)
+        .addAttribute("attrBool", true)
+        .addAttribute("attrDouble", 12.32)
+        .addAttribute("attrLocation", new MoEGeoLocation(12.1, 77.18))
+        .addAttribute("attrArray", ["item1", "item2", "item3"]).addAttribute(
+            'product', {
+      'item-id': 123,
+      'item-type': 'books',
+      'item-cost': {'amount': 100, 'currency': 'USD'}
+    }).addAttribute('products', [
+      {
+        'item-id': 123,
+        'item-cost': {'amount': 100, 'currency': 'USD'}
+      },
+      {
+        'item-id': 323,
+        'item-cost': {'amount': 90, 'currency': 'USD'}
+      }
+    ]).addISODateTime("attrDate", "2019-12-02T08:26:21.170Z");
+    // final MoEngageFlutter _moengagePlugin = MoEngageFlutter("H0LK4MS1ETIM4ODCRME7R6HE");
+    // _moengagePlugin.initialise();
+    _moengagePlugin.trackEvent('Flutter Event', properties);
   }
 
   @override
