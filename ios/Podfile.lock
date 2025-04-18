@@ -111,6 +111,11 @@ PODS:
   - MoEngagePluginBase (5.3.0):
     - MoEngage-iOS-SDK (= 9.23.1)
     - MoEngage-iOS-SDK/InApps
+  - MoEngageRichNotification (7.19.0):
+    - MoEngageAnalytics
+    - MoEngageCore
+    - MoEngageMessaging
+    - MoEngageObjCUtils
   - MoEngageSDK (9.20.0):
     - MoEngageAnalytics
     - MoEngageCore
@@ -133,6 +138,7 @@ DEPENDENCIES:
   - Flutter (from `Flutter`)
   - GoogleUtilities
   - moengage_flutter_ios (from `.symlinks/plugins/moengage_flutter_ios/ios`)
+  - MoEngageRichNotification
 
 SPEC REPOS:
   trunk:
@@ -150,6 +156,7 @@ SPEC REPOS:
     - MoEngageMessaging
     - MoEngageObjCUtils
     - MoEngagePluginBase
+    - MoEngageRichNotification
     - MoEngageSDK
     - MoEngageSecurity
     - MoEngageTriggerEvaluator
@@ -185,12 +192,13 @@ SPEC CHECKSUMS:
   MoEngageMessaging: fe97fe06818c85c9da77c2d15f918f6ee9dd91c8
   MoEngageObjCUtils: bfac002fa75c8a062ab4d34ca4bde2f0d98aac5c
   MoEngagePluginBase: 84b001724e1150307b4e1ba8ba6c50aefdca6846
+  MoEngageRichNotification: f9df91f71ab51a63d48d46685a9feab18ef3a105
   MoEngageSDK: 0ba30fa01901cb5657460638029082df5c2aeaf4
   MoEngageSecurity: 6c2f736b8ab8e2caf91c194993c9594cb30d7d17
   MoEngageTriggerEvaluator: 4a6e546111a71642aa53bbb19a123af667aaeb2e
   nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
 
-PODFILE CHECKSUM: 93cad0bbfc3b2e7ef8c01246f06177fcb3a91dfa
+PODFILE CHECKSUM: 95de0beed279026a07485c528326694255b16b1a
 
 COCOAPODS: 1.16.2

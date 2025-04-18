@@ -41,6 +41,12 @@ target 'TestNotificationService' do
   use_frameworks!
   pod 'Firebase/Messaging'
   pod 'GoogleUtilities'
+  pod 'MoEngageRichNotification'
+end
+
+target 'TestNotificationContent' do
+  use_frameworks! #use use_frameworks only if included in main target as in above scenario
+  pod 'MoEngageRichNotification'
 end
 
 post_install do |installer|

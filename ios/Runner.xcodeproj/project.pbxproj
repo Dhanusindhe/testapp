@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		2A7BD79E945D2131A7DD16CB /* Pods_TestNotificationContent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EE213172D0B35E56E8180A /* Pods_TestNotificationContent.framework */; };
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		385CA795BB1AA6643DC0855C /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85B6BB04B6F23FA45155E37 /* Pods_RunnerTests.framework */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
@@ -86,6 +87,7 @@
 		44750D05F0E31EF4BA0A3894 /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
 		487E516616E1E8FD93882309 /* Pods-TestNotificationService.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNotificationService.profile.xcconfig"; path = "Target Support Files/Pods-TestNotificationService/Pods-TestNotificationService.profile.xcconfig"; sourceTree = "<group>"; };
 		4E04A29DAB9A2FCEF757BB6B /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F49AE93DB76CF867D629387 /* Pods-TestNotificationContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNotificationContent.release.xcconfig"; path = "Target Support Files/Pods-TestNotificationContent/Pods-TestNotificationContent.release.xcconfig"; sourceTree = "<group>"; };
 		520C112F2D9D567D0047C5BD /* TestNotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TestNotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		520C11452D9D5B710047C5BD /* TestNotificationContent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TestNotificationContent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		520C11462D9D5B710047C5BD /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
@@ -96,6 +98,7 @@
 		7475D8CB843E1EDA4C718C74 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79EE213172D0B35E56E8180A /* Pods_TestNotificationContent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestNotificationContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
 		937FA113D4BE94E11C68F058 /* Pods_TestNotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestNotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AAA2AC25B6D0172E886FE5 /* Pods-TestNotificationContent.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNotificationContent.profile.xcconfig"; path = "Target Support Files/Pods-TestNotificationContent/Pods-TestNotificationContent.profile.xcconfig"; sourceTree = "<group>"; };
+		B846FE5CC0258DF928FE24AB /* Pods-TestNotificationContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNotificationContent.debug.xcconfig"; path = "Target Support Files/Pods-TestNotificationContent/Pods-TestNotificationContent.debug.xcconfig"; sourceTree = "<group>"; };
 		F4DCFC0E1742E9F002EA4AB0 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		F85B6BB04B6F23FA45155E37 /* Pods_RunnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -168,6 +173,7 @@
 			files = (
 				520C11492D9D5B710047C5BD /* UserNotificationsUI.framework in Frameworks */,
 				520C11472D9D5B710047C5BD /* UserNotifications.framework in Frameworks */,
+				2A7BD79E945D2131A7DD16CB /* Pods_TestNotificationContent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +208,9 @@
 				6DBD2CD9E99AF6B3D00216A8 /* Pods-TestNotificationService.debug.xcconfig */,
 				18FF798AEA6471CA0E04A95A /* Pods-TestNotificationService.release.xcconfig */,
 				487E516616E1E8FD93882309 /* Pods-TestNotificationService.profile.xcconfig */,
+				B846FE5CC0258DF928FE24AB /* Pods-TestNotificationContent.debug.xcconfig */,
+				4F49AE93DB76CF867D629387 /* Pods-TestNotificationContent.release.xcconfig */,
+				A3AAA2AC25B6D0172E886FE5 /* Pods-TestNotificationContent.profile.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -267,6 +276,7 @@
 				937FA113D4BE94E11C68F058 /* Pods_TestNotificationService.framework */,
 				520C11462D9D5B710047C5BD /* UserNotifications.framework */,
 				520C11482D9D5B710047C5BD /* UserNotificationsUI.framework */,
+				79EE213172D0B35E56E8180A /* Pods_TestNotificationContent.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -318,6 +328,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 520C11582D9D5B710047C5BD /* Build configuration list for PBXNativeTarget "TestNotificationContent" */;
 			buildPhases = (
+				9323B45478B74E33D779C2E5 /* [CP] Check Pods Manifest.lock */,
 				520C11412D9D5B710047C5BD /* Sources */,
 				520C11422D9D5B710047C5BD /* Frameworks */,
 				520C11432D9D5B710047C5BD /* Resources */,
@@ -330,8 +341,6 @@
 				520C114A2D9D5B710047C5BD /* TestNotificationContent */,
 			);
 			name = TestNotificationContent;
-			packageProductDependencies = (
-			);
 			productName = TestNotificationContent;
 			productReference = 520C11452D9D5B710047C5BD /* TestNotificationContent.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -518,6 +527,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Runner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9323B45478B74E33D779C2E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestNotificationContent-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -788,6 +819,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = TestNotificationService/TestNotificationService.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AFALLFWZPJ;
@@ -797,7 +829,7 @@
 				INFOPLIST_FILE = TestNotificationService/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TestNotificationService;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -828,6 +860,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = TestNotificationService/TestNotificationService.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AFALLFWZPJ;
@@ -837,7 +870,7 @@
 				INFOPLIST_FILE = TestNotificationService/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TestNotificationService;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -865,6 +898,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = TestNotificationService/TestNotificationService.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AFALLFWZPJ;
@@ -874,7 +908,7 @@
 				INFOPLIST_FILE = TestNotificationService/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TestNotificationService;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -894,6 +928,7 @@
 		};
 		520C11542D9D5B710047C5BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B846FE5CC0258DF928FE24AB /* Pods-TestNotificationContent.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -901,6 +936,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = TestNotificationContent/TestNotificationContent.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AFALLFWZPJ;
@@ -910,7 +946,7 @@
 				INFOPLIST_FILE = TestNotificationContent/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TestNotificationContent;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -933,6 +969,7 @@
 		};
 		520C11552D9D5B710047C5BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F49AE93DB76CF867D629387 /* Pods-TestNotificationContent.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -940,6 +977,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = TestNotificationContent/TestNotificationContent.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AFALLFWZPJ;
@@ -949,7 +987,7 @@
 				INFOPLIST_FILE = TestNotificationContent/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TestNotificationContent;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -969,6 +1007,7 @@
 		};
 		520C11562D9D5B710047C5BD /* Profile */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3AAA2AC25B6D0172E886FE5 /* Pods-TestNotificationContent.profile.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -976,6 +1015,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = TestNotificationContent/TestNotificationContent.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AFALLFWZPJ;
@@ -985,7 +1025,7 @@
 				INFOPLIST_FILE = TestNotificationContent/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TestNotificationContent;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
