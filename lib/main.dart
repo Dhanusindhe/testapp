@@ -3,6 +3,7 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:moengage_flutter/moengage_flutter.dart';
 import 'package:testapp/firebase_options.dart';
+import 'package:testapp/moe_handler.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -49,8 +50,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
   int _counter = 0;
-  final MoEngageFlutter _moengagePlugin =
-      MoEngageFlutter("H0LK4MS1ETIM4ODCRME7R6HE");
 
   @override
   void initState() {
@@ -58,23 +57,21 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
     debugPrint('$tag initState() : start ');
-    _moengagePlugin.configureLogs(LogLevel.VERBOSE);
-    _moengagePlugin.initialise();
+    MoengageHandler.initialzeMoengage(context);
     // _moengagePlugin.setUniqueId("005");
     // _moengagePlugin.registerForPushNotification();
-    _moengagePlugin.showInApp();
-    _moengagePlugin.showNudge();
+
     debugPrint('$tag initState() : end ');
   }
 
   void _incrementCounter() async {
     // String? token = await FirebaseMessaging.instance.getToken();
     // print("fcm $token");
-    _moengagePlugin.setUserName("Dhanu");
-    _moengagePlugin.setFirstName("Test User");
+    // _moengagePlugin.setUserName("Dhanu");
+    // _moengagePlugin.setFirstName("Test User");
     // _moengagePlugin.setLastName("Yashwanth");
-    _moengagePlugin.setEmail("test1@gmail.com");
-    _moengagePlugin.setPhoneNumber("1111111111");
+    // _moengagePlugin.setEmail("test1@gmail.com");
+    // _moengagePlugin.setPhoneNumber("1111111111");
     // _moengagePlugin.setUserAttribute("int-attr", 0);
     // _moengagePlugin.setUserAttribute("bool-attr", true);
     // _moengagePlugin.setUserAttribute("string-attr", "Some Value");
@@ -145,9 +142,7 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
               padding: const EdgeInsets.all(10.0),
               child: InkWell(
                 onTap: () async {
-                  _moengagePlugin.identifyUser("Test User 9003");
-                  // var temp = await _moengagePlugin.getUserIdentities();
-                  // print(temp.toString());
+                  MoengageHandler.setUUID("1EC60C71DEDD11EF9A3A068DA09481EA");
                 },
                 child: Container(
                   width: 100,
@@ -161,11 +156,9 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
             InkWell(
               onTap: () {
                 var properties = MoEProperties();
-                properties
-                    .addAttribute("Type", "Anonymous event");
-                    // .addAttribute("Amount", 123)
-                    // .addAttribute("Time", 12.32);
-                _moengagePlugin.trackEvent("Anonymous", properties);
+                properties.addAttribute("Type", "Anonymous event");
+                // .addAttribute("Amount", 123)
+                // .addAttribute("Time", 12.32);
               },
               child: Container(
                 width: 100,
@@ -194,7 +187,7 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
               padding: const EdgeInsets.all(10.0),
               child: InkWell(
                 onTap: () {
-                  _moengagePlugin.logout();
+                  MoengageHandler.userLogout();
                 },
                 child: Container(
                   width: 100,
